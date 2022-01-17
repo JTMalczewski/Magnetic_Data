@@ -1,4 +1,4 @@
-CREATE TABLE measurements(  
+CREATE TABLE for_tests(  
     id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
     id_user VARCHAR(20) COMMENT 'login of user',
     stat_sus INT(1) COMMENT 'status of point',
