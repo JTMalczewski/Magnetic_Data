@@ -1,0 +1,11 @@
+SELECT * FROM measurements ORDER BY longitude desc,latitude LIMIT 100;
+
+CREATE TABLE `measurements2` LIKE `measurements`;
+INSERT INTO `measurements2` (`id_user`, `stat_sus`, `create_time`, `update_time`, `longitude`, `latitude`, `longitude_user`, `latitude_user`, `mean_vertical`, `std_dev_vertical`, `mean_horizontal`, `std_dev_horizontal`, `accuracy')
+SELECT `id_user`, `stat_sus`, `create_time`, `update_time`, `longitude`, `latitude`, `longitude_user`, `latitude_user`, `mean_vertical`, `std_dev_vertical`, `mean_horizontal`, `std_dev_horizontal`, `accuracy'
+FROM `measurements` ORDER BY longitude desc,latitude
+
+RENAME TABLE `measurements` TO `measurements_old`;
+RENAME TABLE `measurements2` TO `measurements`;
+
+  `id`, `id_user`, `stat_sus`, `create_time`, `update_time`, `longitude`, `latitude`, `longitude_user`, `latitude_user`, `mean_vertical`, `std_dev_vertical`, `mean_horizontal`, `std_dev_horizontal`, `accuracy'
