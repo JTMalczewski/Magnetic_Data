@@ -1,6 +1,9 @@
 def sign(p1,p2,p3):
     return (p1[0] - p3[0]) * (p2[1] - p3[1]) - (p2[0] - p3[0]) * (p1[1] - p3[1])
 
+def to_decimal(deg,min,sec):
+    return deg + (1/60)*min + (1/3600)*sec 
+
 def PointInTriangle(pt: list,v1: list,v2: list,v3: list) -> bool:
     '''
     Function for checking if giving point pt
@@ -24,14 +27,13 @@ def readPoints(scv_file: str) -> dict:
     '''
     import csv
 
-    file = open(scv_file)
-    csvreader = csv.reader(file)
-    header = []
-    header = next(csvreader)
-    rows = []
-    for row in csvreader:
-            rows.append(row)
-    file.close()
+    with open(scv_file) as file:
+        csvreader = csv.reader(file)   
+        header = []
+        header = next(csvreader)
+        rows = []
+        for row in csvreader:
+                rows.append(row)
 
     for j in range(len(rows)):
         rows[j][0]=float(rows[j][0])
@@ -81,7 +83,7 @@ def deFence(side: list) -> None:
         plt.gca().spines[pos].set_visible(False)
 
 
-def humanTime(epoch):
+def humanTime(epoch: int) -> list:
     import time
     hour_from_zero = []
     ten_min = 1/6
