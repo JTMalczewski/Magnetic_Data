@@ -15,15 +15,16 @@ The purpose of this project is to anaylse trends of Magnetic field in one of teh
 - NumPy, Pandas
 - Matplotlib
 
-### Main parts <br>
+### Main parts
 The key components are:
 - Phone app for measuring data points (made by Adam)
 - [MySQL server](https://github.com/JTMalczewski/Magnetic_field_Blonia/tree/main/server_operation) used for storing and menagment dataset
 - [Data analys](https://github.com/JTMalczewski/Magnetic_field_Blonia/blob/main/data_visualisation/statistic_points.ipynb)
 - [Data Visualization](https://github.com/JTMalczewski/Magnetic_field_Blonia/blob/main/data_visualisation/create_and_draw_points.ipynb)
 
-
-
-
-opis jak odpalić kod
-wersje
+### versions
+- Python 3.8.10
+- Matplotlib 3.1.2
+- Numpy 1.17.4
+- Pandas 0.25.3
+- Mysql 5.6.49-89.0
