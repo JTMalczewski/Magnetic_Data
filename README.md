@@ -1,8 +1,8 @@
 ## Analyse of magnetic filed on Krakow's Blonia <br>
-Magnetic_field_Blonia is academic project prepared for final grade in subject "environmental physics" on my filed of study, Technical Physics on University of science and technology AGH in Krakow. Project done in colaboration with my friend Adam Wątroba. <br>
+Magnetic_field_Blonia is an academic project prepared for the final grade in the subject "environmental physics" on my filed of study, Technical Physics at the University of science and technology AGH in Krakow. The project was done in collaboration with my friend Adam Wątroba.  <br>
 
 ### Objective 
-The purpose of this project is to anaylse trends of Magnetic field in one of teh biggest city meadov (48 ha) in Europe.
+The purpose of this project is to analyse trends of the Magnetic field in one of the biggest city meadow (48 ha) in Europe.
 
 ### Methods Used
 - Data Visualization
