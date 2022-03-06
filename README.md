@@ -9,11 +9,12 @@ The purpose of this project is to analyse trends of the Magnetic field in one of
 - Inferential Statistics
 
 ### Technologies
-- Python
-- MySQL
+- Python 3.8.10
+- MySQL 5.6.49-89.0
 - jupiter
-- NumPy, Pandas
-- Matplotlib
+- NumPy 1.17.4
+- Pandas 0.25.3
+- Matplotlib 3.1.2
 
 ### Main parts
 The key components are:
@@ -21,10 +22,3 @@ The key components are:
 - [MySQL server](https://github.com/JTMalczewski/Magnetic_field_Blonia/tree/main/server_operation) used for storing and menagment dataset
 - [Data analys](https://github.com/JTMalczewski/Magnetic_field_Blonia/blob/main/data_visualisation/statistic_points.ipynb)
 - [Data Visualization](https://github.com/JTMalczewski/Magnetic_field_Blonia/blob/main/data_visualisation/create_and_draw_points.ipynb)
-
-### versions
-- Python 3.8.10
-- Matplotlib 3.1.2
-- Numpy 1.17.4
-- Pandas 0.25.3
-- Mysql 5.6.49-89.0
